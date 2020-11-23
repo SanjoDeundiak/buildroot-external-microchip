@@ -6,7 +6,7 @@
 
 OCKAMD_VERSION = v0.10.1
 OCKAMD_SOURCE = ockam-0.10.1.tar.gz
-OCKAMD_SITE = $(call github,<user>,<package>,$(OCKAMD_VERSION))
+OCKAMD_SITE = $(call github,ockam-network,ockam,$(OCKAMD_VERSION))
 OCKAMD_LICENSE = "Apache License 2.0"
 OCKAMD_LICENSE_FILES = LICENSE
 
