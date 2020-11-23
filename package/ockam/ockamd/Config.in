@@ -1,0 +1,7 @@
+config BR2_PACKAGE_OCKAMD
+        bool "ockamd"
+        help
+          This is a comment that explains what libfoo is. The help text
+          should be wrapped.
+
+          http://foosoftware.org/libfoo/

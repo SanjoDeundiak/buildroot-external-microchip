@@ -1,0 +1,1 @@
+clude $(sort $(wildcard package/ockam/*/*.mk))
