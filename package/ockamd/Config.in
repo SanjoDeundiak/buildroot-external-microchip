@@ -1,5 +1,7 @@
 config BR2_PACKAGE_OCKAMD
         bool "ockamd"
+        depends on BR2_PACKAGE_HOST_RUSTC_TARGET_ARCH_SUPPORTS
+        select BR2_PACKAGE_HOST_RUSTC
         help
           Ockamd explanaition goes here
 
