@@ -22,7 +22,7 @@ OCKAMD_BIN_DIR = target/$(RUSTC_TARGET_NAME)/$(OCKAMD_CARGO_MODE)
 OCKAMD_CARGO_OPTS = \
     $(if $(BR2_ENABLE_DEBUG),,--release) \
     --target=$(RUSTC_TARGET_NAME) \
-    --manifest-path=$(@D)/implementations/rust/Cargo.toml
+    --manifest-path=$(@D)/implementations/rust/daemon/Cargo.toml
 
 define OCKAMD_BUILD_CMDS
     $(TARGET_MAKE_ENV) $(OCKAMD_CARGO_ENV) \
