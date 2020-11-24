@@ -35,4 +35,4 @@ OCKAMD_LICENSE_FILES = LICENSE
 #             $(TARGET_DIR)/usr/bin/ockamd
 # endef
 
-# $(eval $(generic-package))
+$(eval $(generic-package))
